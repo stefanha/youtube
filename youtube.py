@@ -1,5 +1,8 @@
 #!/usr/bin/env python
-import urllib2, json, sys, re
+import urllib2
+import json
+import sys
+import re
 
 if len(sys.argv) != 2:
     print 'usage: %s <video-url>' % sys.argv[0]
